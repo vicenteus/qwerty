@@ -9,7 +9,7 @@ import org.openqa.selenium.*;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.support.ui.Select;
 
-public class epoxyLogin {
+public class xxx {
   private WebDriver driver;
   private String baseUrl;
   private boolean acceptNextAlert = true;
@@ -19,10 +19,11 @@ public class epoxyLogin {
   public void setUp() throws Exception {
 	System.setProperty("webdriver.gecko.driver", "/Users/vicentesolis/Downloads/geckodriver");
 	driver =new FirefoxDriver();
-	baseUrl = "https://app.vemba.com/site/login";
+	baseUrl = "xxxxxxx";
     driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
   }
 
+//this is a test for selenium stuff
   @Test
   public void testEpoxyLogin() throws Exception {
     driver.get(baseUrl + "/");
