@@ -38,11 +38,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="epoxyLogin.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/newpackage/epoxyLogin.java">
+      <file leaf-file-name="testLogin.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/newpackage/testLogin.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" column="18" lean-forward="false" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
+            <state relative-caret-position="405">
+              <caret line="27" column="18" lean-forward="false" selection-start-line="27" selection-start-column="18" selection-end-line="27" selection-end-column="18" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -94,8 +94,8 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="vembaLogin.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/newpackage/vembaLogin.java">
+      <file leaf-file-name="testvLogin.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/newpackage/testvLogin.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="339">
               <caret line="25" column="75" lean-forward="false" selection-start-line="25" selection-start-column="75" selection-end-line="25" selection-end-column="75" />
@@ -198,7 +198,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="epoxyLogin.java" />
+              <option name="myItemId" value="testLogin.java" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -214,14 +214,14 @@
     <property name="project.structure.side.proportion" value="0.2" />
   </component>
   <component name="RunManager" selected="JUnit.channel">
-    <configuration default="false" name="vembaLogin" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="testvLogin" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="newpackage.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="newpackage.vembaLogin" />
+      <option name="MAIN_CLASS_NAME" value="newpackage.testvLogin" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -531,7 +531,7 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.vembaLogin" />
+      <item index="0" class="java.lang.String" itemvalue="Application.testvLogin" />
       <item index="1" class="java.lang.String" itemvalue="Application.TestQA" />
       <item index="2" class="java.lang.String" itemvalue="JUnit.sloauth" />
       <item index="3" class="java.lang.String" itemvalue="Application.Screenwave_oauth" />
@@ -543,7 +543,7 @@
         <item index="1" class="java.lang.String" itemvalue="Application.Screenwave_oauth" />
         <item index="2" class="java.lang.String" itemvalue="JUnit.sloauth" />
         <item index="3" class="java.lang.String" itemvalue="Application.TestQA" />
-        <item index="4" class="java.lang.String" itemvalue="Application.vembaLogin" />
+        <item index="4" class="java.lang.String" itemvalue="Application.testvLogin" />
       </list>
     </recent_temporary>
   </component>
@@ -686,7 +686,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/newpackage/vembaLogin.java">
+    <entry file="file://$PROJECT_DIR$/src/newpackage/testvLogin.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
           <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
@@ -696,7 +696,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/newpackage/epoxyLogin.java">
+    <entry file="file://$PROJECT_DIR$/src/newpackage/testLogin.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="14" column="13" lean-forward="false" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
@@ -766,7 +766,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/newpackage/vembaLogin.java">
+    <entry file="file://$PROJECT_DIR$/src/newpackage/testvLogin.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
           <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
@@ -776,7 +776,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/newpackage/epoxyLogin.java">
+    <entry file="file://$PROJECT_DIR$/src/newpackage/testLogin.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="14" column="13" lean-forward="false" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
@@ -854,7 +854,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/newpackage/vembaLogin.java">
+    <entry file="file://$PROJECT_DIR$/src/newpackage/testvLogin.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="339">
           <caret line="25" column="75" lean-forward="false" selection-start-line="25" selection-start-column="75" selection-end-line="25" selection-end-column="75" />
@@ -908,10 +908,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/newpackage/epoxyLogin.java">
+    <entry file="file://$PROJECT_DIR$/src/newpackage/testLogin.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="18" lean-forward="false" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
+        <state relative-caret-position="405">
+          <caret line="27" column="18" lean-forward="false" selection-start-line="27" selection-start-column="18" selection-end-line="27" selection-end-column="18" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

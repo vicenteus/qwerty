@@ -9,7 +9,7 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 import org.openqa.selenium.By;
 import org.openqa.selenium.By.ById;
 
-public class vembaLogin {
+public class testvLogin {
 
 	public static void main(String[] args) {
 		  System.setProperty("webdriver.chrome.driver", "/Users/vicentesolis/Downloads/chromedriver");

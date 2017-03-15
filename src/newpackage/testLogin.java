@@ -25,7 +25,7 @@ public class xxx {
 
 //this is a test for selenium stuff
   @Test
-  public void testEpoxyLogin() throws Exception {
+  public void testLogin() throws Exception {
     driver.get(baseUrl + "/");
     driver.findElement(By.cssSelector("a.xxxxx")).click();
     driver.findElement(By.cssSelector("#xxxxx")).clear();
