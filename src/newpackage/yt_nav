@@ -1,0 +1,45 @@
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
+
+
+/**
+ * Created by vicentesolis on 3/16/17.
+ */
+public class yt_nav {
+
+
+    public static void main(String[] args) {
+        System.setProperty("webdriver.chrome.driver", "/Users/vicentesolis/Downloads/chromedriver");
+        WebDriver driver = new ChromeDriver();
+        // Storing the Application Url in the String variable
+        //Launch the google website
+        driver.get("https://www.google.com/");
+        System.out.println("Website - PASS");
+
+        //navigate to yt
+        driver.get("https://www.youtube.com");
+
+        //look up some good music
+        driver.findElement(By.id("masthead-search-term")).click();
+        driver.findElement(By.id("masthead-search-term")).sendKeys("party in the usa");
+        driver.findElement(By.id("search-btn")).click();
+        WebDriverWait wait = new WebDriverWait(driver, 10);
+
+
+        //wait for yt search
+        WebElement element = wait.until(
+                ExpectedConditions.elementToBeClickable(By.xpath("//a[@title = 'Miley Cyrus - Party In The U.S.A.']")));
+        driver.findElement(By.xpath("//a[@title = 'Miley Cyrus - Party In The U.S.A.']")).click();
+        System.out.println("Find Music - PASS");
+
+
+        //Close window, but let the music play
+        //driver.close();
+
+
+    }
+}
